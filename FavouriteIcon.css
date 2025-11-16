@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+  font-family: Arial, sans-serif;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    }
+
+h1{font-weight: bold;
+    margin-bottom: 20px;
+}
+.container{
+    text-align: center;
+}
+.filled {
+  color: red;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+button{
+      font-size: 2rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+}
+button.like-btn:hover {
+  transform: scale(1.2);
+}
+
+/* When button is filled (liked) */
+.filled {
+  color: red;
+}
+/* Short line separator */
+hr {
+  width: 250px;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0 auto;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  margin: 10px auto;
+}
